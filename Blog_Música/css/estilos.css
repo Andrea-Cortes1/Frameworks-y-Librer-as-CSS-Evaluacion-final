@@ -35,3 +35,20 @@ body{
 .img-social{
   width: 18%;
 }
+
+.menu_navegacion{
+  margin: 1% auto;
+  padding: 2px;
+  opacity: 0.95;
+  background-position: center;
+  background-size: 100%;
+  background-color: hsla(0, 100%, 30%, 0.3);
+
+}
+.menu_navegacion a{
+  color: black;
+}
+
+.menu_navegacion a:hover{
+  text-decoration: none;
+}
