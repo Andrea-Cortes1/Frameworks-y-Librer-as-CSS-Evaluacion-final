@@ -25,3 +25,13 @@ body{
   padding: 0 auto;
   float: left;
 }
+
+.redes-sociales{
+  height: 150px;
+  padding: 105px 0px 0px 0px;
+  float: right;
+}
+
+.img-social{
+  width: 18%;
+}
