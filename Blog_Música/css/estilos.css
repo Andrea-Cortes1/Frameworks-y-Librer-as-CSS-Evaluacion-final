@@ -37,12 +37,14 @@ body{
 }
 
 .menu_navegacion{
-  margin: 1% auto;
+  margin-bottom: 1%;
   padding: 10px;
   opacity: 0.95;
   background-position: center;
   background-size: 100%;
   background-color: hsla(0, 100%, 30%, 0.3);
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 5px 5px 7px;
 
 }
 .menu_navegacion a{
@@ -61,13 +63,34 @@ body{
   opacity: 0.85;
 }
 
+.buscador{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+
+}
 .estilo-listas{
   padding: 0 auto;
-  width: 90%;
+  width: 80%;
   height: 80%;
   margin: 0 auto;
 }
 
+#img-comentario{
+  font-size: 150%;
+  margin-left: 40%;
+  margin-right: 10%;
+  margin-top: 16%;
+}
+
+.inner-addon {
+  position:sticky;
+}
+.inner-addon.glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
 
 @media (max-width: 480px){
 
