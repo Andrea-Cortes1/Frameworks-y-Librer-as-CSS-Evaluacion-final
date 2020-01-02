@@ -2,7 +2,7 @@ body{
   background-color: #F0F8FF;
 }
 
-.musica-body{
+.container{
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
@@ -55,8 +55,43 @@ body{
 .contenido{
   background-color: white;
   width: 90%;
-  height: 100%;
+  height: 80%;
   margin: 0 auto;
   padding: 5px;
   opacity: 0.85;
+}
+
+.estilo-listas{
+  padding: 0 auto;
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 480px){
+
+  .encabezado {
+    padding: 0 auto;
+  }
+
+  .estilo-nota p{
+    font-size: 0.8em;
+  }
+
+  .redes-sociales{
+    padding: 5px 0px 0px 0px;
+    margin: 0 auto;
+    height: 80px;
+  }
+
+  .logo-img{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .img-social{
+    margin: 0 auto;
+  }
+
 }
