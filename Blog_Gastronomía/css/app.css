@@ -1,0 +1,39 @@
+body{
+  background-image: url("../img/Fondo_pantalla2.jpg");
+  background-attachment: fixed;
+  background-repeat: round;;
+}
+
+.contenido{
+  background-color: #20B2AA;
+  margin: 0 auto;
+  padding-top: 2%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.header, .section{
+  background: #00FF00;
+}
+
+.section{
+  padding-bottom: 1%;
+}
+
+.img {
+  border: 1px solid #48D1CC;
+  border-radius: 5px 5px 5px 5px;
+  padding: 0.5%;
+  margin-bottom: 3%;
+  -webkit-box-shadow: 2px 2px 2px #FFE4B5;
+  -moz-box-shadow: 2px 2px 2px #FFE4B5;
+
+}
+
+.menu{
+  text-shadow: none !important;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+a{
+  text-decoration: none;
+}
