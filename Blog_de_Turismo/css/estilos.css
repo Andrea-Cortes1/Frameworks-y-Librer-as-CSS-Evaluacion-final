@@ -1,5 +1,5 @@
 body{
-  background-image: url("../img/Fondo_pantalla.jpg");
+  background-image: url("../img/Fondo_pantalla2.jpg");
   background-attachment: fixed;
   background-repeat: round;
 }
@@ -36,5 +36,5 @@ img{
 }
 
 p{
-  color: #eceff1;
+  color: white;
 }
