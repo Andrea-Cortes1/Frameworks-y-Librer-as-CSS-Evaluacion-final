@@ -1,0 +1,36 @@
+body{
+  background-image: url("../img/Fondo_pantalla.jpg");
+  background-attachment: fixed;
+  background-repeat: round;
+}
+
+.logo{
+  min-height: 4rem;
+}
+
+div[class*="columna"]{
+  min-height: 40rem;
+  border: 1px solid #eceff1;
+}
+
+div[class*="bloque"]{
+  min-height: 25rem;
+  border: 1px solid #eceff1;
+}
+
+.menu{
+  margin-bottom: 1%;
+  padding: 1px;
+  opacity: 0.95;
+
+}
+
+img{
+  margin-bottom: 1%;
+  padding: 1px;
+  opacity: 0.95;
+  background-position: center;
+  background-size: 1%;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 5px 5px 7px;
+}
